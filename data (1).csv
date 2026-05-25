@@ -1,0 +1,921 @@
+ID,Age,Gender,Heart Rate bpm,BP Systolic mmHg,BP Diastolic mmHg,Hypertension,Sugar Level mgdL,Diabetic Status,Cholesterol mgdL,ECG Result,Chest Pain Type,Heart Patient
+1,63,Male,150.0,145.0,,Yes,Flag: >120,Yes,233.0,Left Ventricular Hypertrophy (LVH),Typical Angina,No
+2,67,Male,108.0,160.0,,Yes,Flag: <=120,No,286.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+3,67,Male,129.0,120.0,,No,Flag: <=120,No,229.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+4,37,Male,187.0,130.0,,No,Flag: <=120,No,250.0,Normal,Non-Anginal Chest Pain,No
+5,41,Female,172.0,130.0,,No,Flag: <=120,No,204.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+6,56,Male,178.0,120.0,,No,Flag: <=120,No,236.0,Normal,Atypical Angina,No
+7,62,Female,160.0,140.0,,Yes,Flag: <=120,No,268.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+8,57,Female,163.0,120.0,,No,Flag: <=120,No,354.0,Normal,Asymptomatic,No
+9,63,Male,147.0,130.0,,No,Flag: <=120,No,254.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+10,53,Male,155.0,140.0,,Yes,Flag: >120,Yes,203.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+11,57,Male,148.0,140.0,,Yes,Flag: <=120,No,192.0,Normal,Asymptomatic,No
+12,56,Female,153.0,140.0,,Yes,Flag: <=120,No,294.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+13,56,Male,142.0,130.0,,No,Flag: >120,Yes,256.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+14,44,Male,173.0,120.0,,No,Flag: <=120,No,263.0,Normal,Atypical Angina,No
+15,52,Male,162.0,172.0,,Yes,Flag: >120,Yes,199.0,Normal,Non-Anginal Chest Pain,No
+16,57,Male,174.0,150.0,,Yes,Flag: <=120,No,168.0,Normal,Non-Anginal Chest Pain,No
+17,48,Male,168.0,110.0,,No,Flag: <=120,No,229.0,Normal,Atypical Angina,Yes
+18,54,Male,160.0,140.0,,Yes,Flag: <=120,No,239.0,Normal,Asymptomatic,No
+19,48,Female,139.0,130.0,,No,Flag: <=120,No,275.0,Normal,Non-Anginal Chest Pain,No
+20,49,Male,171.0,130.0,,No,Flag: <=120,No,266.0,Normal,Atypical Angina,No
+21,64,Male,144.0,110.0,,No,Flag: <=120,No,211.0,Left Ventricular Hypertrophy (LVH),Typical Angina,No
+22,58,Female,162.0,150.0,,Yes,Flag: >120,Yes,283.0,Left Ventricular Hypertrophy (LVH),Typical Angina,No
+23,58,Male,160.0,120.0,,No,Flag: <=120,No,284.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,Yes
+24,58,Male,173.0,132.0,,No,Flag: <=120,No,224.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+25,60,Male,132.0,130.0,,No,Flag: <=120,No,206.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+26,50,Female,158.0,120.0,,No,Flag: <=120,No,219.0,Normal,Non-Anginal Chest Pain,No
+27,58,Female,172.0,120.0,,No,Flag: <=120,No,340.0,Normal,Non-Anginal Chest Pain,No
+28,66,Female,114.0,150.0,,Yes,Flag: <=120,No,226.0,Normal,Typical Angina,No
+29,43,Male,171.0,150.0,,Yes,Flag: <=120,No,247.0,Normal,Asymptomatic,No
+30,40,Male,114.0,110.0,,No,Flag: <=120,No,167.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+31,69,Female,151.0,140.0,,Yes,Flag: <=120,No,239.0,Normal,Typical Angina,No
+32,60,Male,160.0,117.0,,No,Flag: >120,Yes,230.0,Normal,Asymptomatic,Yes
+33,64,Male,158.0,140.0,,Yes,Flag: <=120,No,335.0,Normal,Non-Anginal Chest Pain,Yes
+34,59,Male,161.0,135.0,,No,Flag: <=120,No,234.0,Normal,Asymptomatic,No
+35,44,Male,179.0,130.0,,No,Flag: <=120,No,233.0,Normal,Non-Anginal Chest Pain,No
+36,42,Male,178.0,140.0,,Yes,Flag: <=120,No,226.0,Normal,Asymptomatic,No
+37,43,Male,120.0,120.0,,No,Flag: <=120,No,177.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+38,57,Male,112.0,150.0,,Yes,Flag: <=120,No,276.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+39,55,Male,132.0,132.0,,No,Flag: <=120,No,353.0,Normal,Asymptomatic,Yes
+40,61,Male,137.0,150.0,,Yes,Flag: >120,Yes,243.0,Normal,Non-Anginal Chest Pain,No
+41,65,Female,114.0,150.0,,Yes,Flag: <=120,No,225.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+42,40,Male,178.0,140.0,,Yes,Flag: <=120,No,199.0,Normal,Typical Angina,No
+43,71,Female,162.0,160.0,,Yes,Flag: <=120,No,302.0,Normal,Atypical Angina,No
+44,59,Male,157.0,150.0,,Yes,Flag: >120,Yes,212.0,Normal,Non-Anginal Chest Pain,No
+45,61,Female,169.0,130.0,,No,Flag: <=120,No,330.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+46,58,Male,165.0,112.0,,No,Flag: <=120,No,230.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+47,51,Male,123.0,110.0,,No,Flag: <=120,No,175.0,Normal,Non-Anginal Chest Pain,No
+48,50,Male,128.0,150.0,,Yes,Flag: <=120,No,243.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+49,65,Female,157.0,140.0,,Yes,Flag: >120,Yes,417.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+50,53,Male,152.0,130.0,,No,Flag: >120,Yes,197.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+51,41,Female,168.0,105.0,,No,Flag: <=120,No,198.0,Normal,Atypical Angina,No
+52,65,Male,140.0,120.0,,No,Flag: <=120,No,177.0,Normal,Asymptomatic,No
+53,44,Male,153.0,112.0,,No,Flag: <=120,No,290.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+54,44,Male,188.0,130.0,,No,Flag: <=120,No,219.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+55,60,Male,144.0,130.0,,No,Flag: <=120,No,253.0,Normal,Asymptomatic,Yes
+56,54,Male,109.0,124.0,,No,Flag: <=120,No,266.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+57,50,Male,163.0,140.0,,Yes,Flag: <=120,No,233.0,Normal,Non-Anginal Chest Pain,Yes
+58,41,Male,158.0,110.0,,No,Flag: <=120,No,172.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+59,54,Male,152.0,125.0,,No,Flag: <=120,No,273.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+60,51,Male,125.0,125.0,,No,Flag: <=120,No,213.0,Left Ventricular Hypertrophy (LVH),Typical Angina,No
+61,51,Female,142.0,130.0,,No,Flag: <=120,No,305.0,Normal,Asymptomatic,Yes
+62,46,Female,160.0,142.0,,Yes,Flag: <=120,No,177.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+63,58,Male,131.0,128.0,,No,Flag: <=120,No,216.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+64,54,Female,170.0,135.0,,No,Flag: >120,Yes,304.0,Normal,Non-Anginal Chest Pain,No
+65,54,Male,113.0,120.0,,No,Flag: <=120,No,188.0,Normal,Asymptomatic,Yes
+66,60,Male,142.0,145.0,,Yes,Flag: <=120,No,282.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+67,60,Male,155.0,140.0,,Yes,Flag: <=120,No,185.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+68,54,Male,165.0,150.0,,Yes,Flag: <=120,No,232.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+69,59,Male,140.0,170.0,,Yes,Flag: <=120,No,326.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+70,46,Male,147.0,150.0,,Yes,Flag: <=120,No,231.0,Normal,Non-Anginal Chest Pain,Yes
+71,65,Female,148.0,155.0,,Yes,Flag: <=120,No,269.0,Normal,Non-Anginal Chest Pain,No
+72,67,Male,163.0,125.0,,No,Flag: >120,Yes,254.0,Normal,Asymptomatic,Yes
+73,62,Male,99.0,120.0,,No,Flag: <=120,No,267.0,Normal,Asymptomatic,Yes
+74,65,Male,158.0,110.0,,No,Flag: <=120,No,248.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+75,44,Male,177.0,110.0,,No,Flag: <=120,No,197.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+76,65,Female,151.0,160.0,,Yes,Flag: <=120,No,360.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+77,60,Male,141.0,125.0,,No,Flag: <=120,No,258.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+78,51,Female,142.0,140.0,,Yes,Flag: <=120,No,308.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+79,48,Male,180.0,130.0,,No,Flag: <=120,No,245.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+80,58,Male,111.0,150.0,,Yes,Flag: <=120,No,270.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+81,45,Male,148.0,104.0,,No,Flag: <=120,No,208.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+82,53,Female,143.0,130.0,,No,Flag: <=120,No,264.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+83,39,Male,182.0,140.0,,Yes,Flag: <=120,No,321.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+84,68,Male,150.0,180.0,,Yes,Flag: >120,Yes,274.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+85,52,Male,172.0,120.0,,No,Flag: <=120,No,325.0,Normal,Atypical Angina,No
+86,44,Male,180.0,140.0,,Yes,Flag: <=120,No,235.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+87,47,Male,156.0,138.0,,No,Flag: <=120,No,257.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+88,53,Female,115.0,128.0,,No,Flag: <=120,No,216.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+89,53,Female,160.0,138.0,,No,Flag: <=120,No,234.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+90,51,Female,149.0,130.0,,No,Flag: <=120,No,256.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+91,66,Male,151.0,120.0,,No,Flag: <=120,No,302.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+92,62,Female,145.0,160.0,,Yes,Flag: <=120,No,164.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+93,62,Male,146.0,130.0,,No,Flag: <=120,No,231.0,Normal,Non-Anginal Chest Pain,No
+94,44,Female,175.0,108.0,,No,Flag: <=120,No,141.0,Normal,Non-Anginal Chest Pain,No
+95,63,Female,172.0,135.0,,No,Flag: <=120,No,252.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+96,52,Male,161.0,128.0,,No,Flag: <=120,No,255.0,Normal,Asymptomatic,Yes
+97,59,Male,142.0,110.0,,No,Flag: <=120,No,239.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+98,60,Female,157.0,150.0,,Yes,Flag: <=120,No,258.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+99,52,Male,158.0,134.0,,No,Flag: <=120,No,201.0,Normal,Atypical Angina,No
+100,48,Male,186.0,122.0,,No,Flag: <=120,No,222.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+101,45,Male,185.0,115.0,,No,Flag: <=120,No,260.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+102,34,Male,174.0,118.0,,No,Flag: <=120,No,182.0,Left Ventricular Hypertrophy (LVH),Typical Angina,No
+103,57,Female,159.0,128.0,,No,Flag: <=120,No,303.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+104,71,Female,130.0,110.0,,No,Flag: >120,Yes,265.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+105,49,Male,139.0,120.0,,No,Flag: <=120,No,188.0,Normal,Non-Anginal Chest Pain,Yes
+106,54,Male,156.0,108.0,,No,Flag: <=120,No,309.0,Normal,Atypical Angina,No
+107,59,Male,162.0,140.0,,Yes,Flag: <=120,No,177.0,Normal,Asymptomatic,Yes
+108,57,Male,150.0,128.0,,No,Flag: <=120,No,229.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+109,61,Male,140.0,120.0,,No,Flag: <=120,No,260.0,Normal,Asymptomatic,Yes
+110,39,Male,140.0,118.0,,No,Flag: <=120,No,219.0,Normal,Asymptomatic,Yes
+111,61,Female,146.0,145.0,,Yes,Flag: <=120,No,307.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+112,56,Male,144.0,125.0,,No,Flag: >120,Yes,249.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+113,52,Male,190.0,118.0,,No,Flag: <=120,No,186.0,Left Ventricular Hypertrophy (LVH),Typical Angina,No
+114,43,Female,136.0,132.0,,No,Flag: >120,Yes,341.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+115,62,Female,97.0,130.0,,No,Flag: <=120,No,263.0,Normal,Non-Anginal Chest Pain,Yes
+116,41,Male,132.0,135.0,,No,Flag: <=120,No,203.0,Normal,Atypical Angina,No
+117,58,Male,165.0,140.0,,Yes,Flag: >120,Yes,211.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+118,35,Female,182.0,138.0,,No,Flag: <=120,No,183.0,Normal,Asymptomatic,No
+119,63,Male,132.0,130.0,,No,Flag: >120,Yes,330.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+120,65,Male,127.0,135.0,,No,Flag: <=120,No,254.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+121,48,Male,150.0,130.0,,No,Flag: >120,Yes,256.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+122,63,Female,154.0,150.0,,Yes,Flag: <=120,No,407.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+123,51,Male,143.0,100.0,,No,Flag: <=120,No,222.0,Normal,Non-Anginal Chest Pain,No
+124,55,Male,111.0,140.0,,Yes,Flag: <=120,No,217.0,Normal,Asymptomatic,Yes
+125,65,Male,174.0,138.0,,No,Flag: >120,Yes,282.0,Left Ventricular Hypertrophy (LVH),Typical Angina,Yes
+126,45,Female,175.0,130.0,,No,Flag: <=120,No,234.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+127,56,Female,133.0,200.0,,Yes,Flag: >120,Yes,288.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+128,54,Male,126.0,110.0,,No,Flag: <=120,No,239.0,Normal,Asymptomatic,Yes
+129,44,Male,170.0,120.0,,No,Flag: <=120,No,220.0,Normal,Atypical Angina,No
+130,62,Female,163.0,124.0,,No,Flag: <=120,No,209.0,Normal,Asymptomatic,No
+131,54,Male,147.0,120.0,,No,Flag: <=120,No,258.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+132,51,Male,154.0,94.0,,No,Flag: <=120,No,227.0,Normal,Non-Anginal Chest Pain,No
+133,29,Male,202.0,130.0,,No,Flag: <=120,No,204.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+134,51,Male,186.0,140.0,,Yes,Flag: <=120,No,261.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+135,43,Female,165.0,122.0,,No,Flag: <=120,No,213.0,Normal,Non-Anginal Chest Pain,No
+136,55,Female,161.0,135.0,,No,Flag: <=120,No,250.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+137,70,Male,125.0,145.0,,Yes,Flag: <=120,No,174.0,Normal,Asymptomatic,Yes
+138,62,Male,103.0,120.0,,No,Flag: <=120,No,281.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,Yes
+139,35,Male,130.0,120.0,,No,Flag: <=120,No,198.0,Normal,Asymptomatic,Yes
+140,51,Male,166.0,125.0,,No,Flag: >120,Yes,245.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+141,59,Male,164.0,140.0,,Yes,Flag: <=120,No,221.0,Normal,Atypical Angina,No
+142,59,Male,159.0,170.0,,Yes,Flag: <=120,No,288.0,Left Ventricular Hypertrophy (LVH),Typical Angina,Yes
+143,52,Male,184.0,128.0,,No,Flag: >120,Yes,205.0,Normal,Atypical Angina,No
+144,64,Male,131.0,125.0,,No,Flag: <=120,No,309.0,Normal,Non-Anginal Chest Pain,Yes
+145,58,Male,154.0,105.0,,No,Flag: <=120,No,240.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+146,47,Male,152.0,108.0,,No,Flag: <=120,No,243.0,Normal,Non-Anginal Chest Pain,Yes
+147,57,Male,124.0,165.0,,Yes,Flag: >120,Yes,289.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+148,41,Male,179.0,112.0,,No,Flag: <=120,No,250.0,Normal,Non-Anginal Chest Pain,No
+149,45,Male,170.0,128.0,,No,Flag: <=120,No,308.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+150,60,Female,160.0,102.0,,No,Flag: <=120,No,318.0,Normal,Non-Anginal Chest Pain,No
+151,52,Male,178.0,152.0,,Yes,Flag: >120,Yes,298.0,Normal,Typical Angina,No
+152,42,Female,122.0,102.0,,No,Flag: <=120,No,265.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+153,67,Female,160.0,115.0,,No,Flag: <=120,No,564.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+154,55,Male,145.0,160.0,,Yes,Flag: <=120,No,289.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+155,64,Male,96.0,120.0,,No,Flag: <=120,No,246.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+156,70,Male,109.0,130.0,,No,Flag: <=120,No,322.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+157,51,Male,173.0,140.0,,Yes,Flag: <=120,No,299.0,Normal,Asymptomatic,Yes
+158,58,Male,171.0,125.0,,No,Flag: <=120,No,300.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+159,60,Male,170.0,140.0,,Yes,Flag: <=120,No,293.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+160,68,Male,151.0,118.0,,No,Flag: <=120,No,277.0,Normal,Non-Anginal Chest Pain,No
+161,46,Male,156.0,101.0,,No,Flag: >120,Yes,197.0,Normal,Atypical Angina,No
+162,77,Male,162.0,125.0,,No,Flag: <=120,No,304.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+163,54,Female,158.0,110.0,,No,Flag: <=120,No,214.0,Normal,Non-Anginal Chest Pain,No
+164,58,Female,122.0,100.0,,No,Flag: <=120,No,248.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+165,48,Male,175.0,124.0,,No,Flag: >120,Yes,255.0,Normal,Non-Anginal Chest Pain,No
+166,57,Male,168.0,132.0,,No,Flag: <=120,No,207.0,Normal,Asymptomatic,No
+167,52,Male,169.0,138.0,,No,Flag: <=120,No,223.0,Normal,Non-Anginal Chest Pain,No
+168,54,Female,159.0,132.0,,No,Flag: >120,Yes,288.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+169,35,Male,156.0,126.0,,No,Flag: <=120,No,282.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+170,45,Female,138.0,112.0,,No,Flag: <=120,No,160.0,Normal,Atypical Angina,No
+171,70,Male,112.0,160.0,,Yes,Flag: <=120,No,269.0,Normal,Non-Anginal Chest Pain,Yes
+172,53,Male,111.0,142.0,,Yes,Flag: <=120,No,226.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+173,59,Female,143.0,174.0,,Yes,Flag: <=120,No,249.0,Normal,Asymptomatic,Yes
+174,62,Female,157.0,140.0,,Yes,Flag: <=120,No,394.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+175,64,Male,132.0,145.0,,Yes,Flag: <=120,No,212.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+176,57,Male,88.0,152.0,,Yes,Flag: <=120,No,274.0,Normal,Asymptomatic,Yes
+177,52,Male,147.0,108.0,,No,Flag: >120,Yes,233.0,Normal,Asymptomatic,No
+178,56,Male,105.0,132.0,,No,Flag: <=120,No,184.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+179,43,Male,162.0,130.0,,No,Flag: <=120,No,315.0,Normal,Non-Anginal Chest Pain,No
+180,53,Male,173.0,130.0,,No,Flag: >120,Yes,246.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+181,48,Male,166.0,124.0,,No,Flag: <=120,No,274.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+182,56,Female,150.0,134.0,,No,Flag: <=120,No,409.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+183,42,Male,178.0,148.0,,Yes,Flag: <=120,No,244.0,Left Ventricular Hypertrophy (LVH),Typical Angina,No
+184,59,Male,145.0,178.0,,Yes,Flag: <=120,No,270.0,Left Ventricular Hypertrophy (LVH),Typical Angina,No
+185,60,Female,161.0,158.0,,Yes,Flag: <=120,No,305.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+186,63,Female,179.0,140.0,,Yes,Flag: <=120,No,195.0,Normal,Atypical Angina,No
+187,42,Male,194.0,120.0,,No,Flag: >120,Yes,240.0,Normal,Non-Anginal Chest Pain,No
+188,66,Male,120.0,160.0,,Yes,Flag: <=120,No,246.0,Normal,Atypical Angina,Yes
+189,54,Male,195.0,192.0,,Yes,Flag: <=120,No,283.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,Yes
+190,69,Male,146.0,140.0,,Yes,Flag: <=120,No,254.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+191,50,Male,163.0,129.0,,No,Flag: <=120,No,196.0,Normal,Non-Anginal Chest Pain,No
+192,51,Male,122.0,140.0,,Yes,Flag: <=120,No,298.0,Normal,Asymptomatic,Yes
+193,43,Male,143.0,132.0,,No,Flag: >120,Yes,247.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+194,62,Female,106.0,138.0,,No,Flag: >120,Yes,294.0,Normal,Asymptomatic,Yes
+195,68,Female,115.0,120.0,,No,Flag: <=120,No,211.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+196,67,Male,125.0,100.0,,No,Flag: <=120,No,299.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+197,69,Male,131.0,160.0,,Yes,Flag: >120,Yes,234.0,Left Ventricular Hypertrophy (LVH),Typical Angina,No
+198,45,Female,152.0,138.0,,No,Flag: <=120,No,236.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+199,50,Female,162.0,120.0,,No,Flag: <=120,No,244.0,Normal,Atypical Angina,No
+200,59,Male,125.0,160.0,,Yes,Flag: <=120,No,273.0,Left Ventricular Hypertrophy (LVH),Typical Angina,Yes
+201,50,Female,159.0,110.0,,No,Flag: <=120,No,254.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+202,64,Female,154.0,180.0,,Yes,Flag: <=120,No,325.0,Normal,Asymptomatic,No
+203,57,Male,173.0,150.0,,Yes,Flag: >120,Yes,126.0,Normal,Non-Anginal Chest Pain,No
+204,64,Female,133.0,140.0,,Yes,Flag: <=120,No,313.0,Normal,Non-Anginal Chest Pain,No
+205,43,Male,161.0,110.0,,No,Flag: <=120,No,211.0,Normal,Asymptomatic,No
+206,45,Male,147.0,142.0,,Yes,Flag: <=120,No,309.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+207,58,Male,130.0,128.0,,No,Flag: <=120,No,259.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+208,50,Male,126.0,144.0,,Yes,Flag: <=120,No,200.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+209,55,Male,155.0,130.0,,No,Flag: <=120,No,262.0,Normal,Atypical Angina,No
+210,62,Female,154.0,150.0,,Yes,Flag: <=120,No,244.0,Normal,Asymptomatic,Yes
+211,37,Female,170.0,120.0,,No,Flag: <=120,No,215.0,Normal,Non-Anginal Chest Pain,No
+212,38,Male,182.0,120.0,,No,Flag: <=120,No,231.0,Normal,Typical Angina,Yes
+213,41,Male,168.0,130.0,,No,Flag: <=120,No,214.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+214,66,Female,165.0,178.0,,Yes,Flag: >120,Yes,228.0,Normal,Asymptomatic,Yes
+215,52,Male,160.0,112.0,,No,Flag: <=120,No,230.0,Normal,Asymptomatic,Yes
+216,56,Male,162.0,120.0,,No,Flag: <=120,No,193.0,Left Ventricular Hypertrophy (LVH),Typical Angina,No
+217,46,Female,172.0,105.0,,No,Flag: <=120,No,204.0,Normal,Atypical Angina,No
+218,46,Female,152.0,138.0,,No,Flag: <=120,No,243.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+219,64,Female,122.0,130.0,,No,Flag: <=120,No,303.0,Normal,Asymptomatic,No
+220,59,Male,182.0,138.0,,No,Flag: <=120,No,271.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+221,41,Female,172.0,112.0,,No,Flag: <=120,No,268.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+222,54,Female,167.0,108.0,,No,Flag: <=120,No,267.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+223,39,Female,179.0,94.0,,No,Flag: <=120,No,199.0,Normal,Non-Anginal Chest Pain,No
+224,53,Male,95.0,123.0,,No,Flag: <=120,No,282.0,Normal,Asymptomatic,Yes
+225,63,Female,169.0,108.0,,No,Flag: <=120,No,269.0,Normal,Asymptomatic,Yes
+226,34,Female,192.0,118.0,,No,Flag: <=120,No,210.0,Normal,Atypical Angina,No
+227,47,Male,143.0,112.0,,No,Flag: <=120,No,204.0,Normal,Asymptomatic,No
+228,67,Female,172.0,152.0,,Yes,Flag: <=120,No,277.0,Normal,Non-Anginal Chest Pain,No
+229,54,Male,108.0,110.0,,No,Flag: <=120,No,206.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+230,66,Male,132.0,112.0,,No,Flag: <=120,No,212.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+231,52,Female,169.0,136.0,,No,Flag: <=120,No,196.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+232,55,Female,117.0,180.0,,Yes,Flag: <=120,No,327.0,ST-T Wave Abnormality,Asymptomatic,Yes
+233,49,Male,126.0,118.0,,No,Flag: <=120,No,149.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+234,74,Female,121.0,120.0,,No,Flag: <=120,No,269.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+235,54,Female,163.0,160.0,,Yes,Flag: <=120,No,201.0,Normal,Non-Anginal Chest Pain,No
+236,54,Male,116.0,122.0,,No,Flag: <=120,No,286.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+237,56,Male,103.0,130.0,,No,Flag: >120,Yes,283.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+238,46,Male,144.0,120.0,,No,Flag: <=120,No,249.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+239,49,Female,162.0,134.0,,No,Flag: <=120,No,271.0,Normal,Atypical Angina,No
+240,42,Male,162.0,120.0,,No,Flag: <=120,No,295.0,Normal,Atypical Angina,No
+241,41,Male,153.0,110.0,,No,Flag: <=120,No,235.0,Normal,Atypical Angina,No
+242,41,Female,163.0,126.0,,No,Flag: <=120,No,306.0,Normal,Atypical Angina,No
+243,49,Female,163.0,130.0,,No,Flag: <=120,No,269.0,Normal,Asymptomatic,No
+244,61,Male,145.0,134.0,,No,Flag: <=120,No,234.0,Normal,Typical Angina,Yes
+245,60,Female,96.0,120.0,,No,Flag: >120,Yes,178.0,Normal,Non-Anginal Chest Pain,No
+246,67,Male,71.0,120.0,,No,Flag: <=120,No,237.0,Normal,Asymptomatic,Yes
+247,58,Male,156.0,100.0,,No,Flag: <=120,No,234.0,Normal,Asymptomatic,Yes
+248,47,Male,118.0,110.0,,No,Flag: <=120,No,275.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+249,52,Male,168.0,125.0,,No,Flag: <=120,No,212.0,Normal,Asymptomatic,Yes
+250,62,Male,140.0,128.0,,No,Flag: >120,Yes,208.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+251,57,Male,126.0,110.0,,No,Flag: <=120,No,201.0,Normal,Asymptomatic,No
+252,58,Male,105.0,146.0,,Yes,Flag: <=120,No,218.0,Normal,Asymptomatic,Yes
+253,64,Male,105.0,128.0,,No,Flag: <=120,No,263.0,Normal,Asymptomatic,No
+254,51,Female,157.0,120.0,,No,Flag: <=120,No,295.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+255,43,Male,181.0,115.0,,No,Flag: <=120,No,303.0,Normal,Asymptomatic,No
+256,42,Female,173.0,120.0,,No,Flag: <=120,No,209.0,Normal,Non-Anginal Chest Pain,No
+257,67,Female,142.0,106.0,,No,Flag: <=120,No,223.0,Normal,Asymptomatic,No
+258,76,Female,116.0,140.0,,Yes,Flag: <=120,No,197.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+259,70,Male,143.0,156.0,,Yes,Flag: <=120,No,245.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+260,57,Male,141.0,124.0,,No,Flag: <=120,No,261.0,Normal,Atypical Angina,Yes
+261,44,Female,149.0,118.0,,No,Flag: <=120,No,242.0,Normal,Non-Anginal Chest Pain,No
+262,58,Female,152.0,136.0,,No,Flag: >120,Yes,319.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,Yes
+263,60,Female,171.0,150.0,,Yes,Flag: <=120,No,240.0,Normal,Typical Angina,No
+264,44,Male,169.0,120.0,,No,Flag: <=120,No,226.0,Normal,Non-Anginal Chest Pain,No
+265,61,Male,125.0,138.0,,No,Flag: <=120,No,166.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+266,42,Male,125.0,136.0,,No,Flag: <=120,No,315.0,Normal,Asymptomatic,Yes
+267,52,Male,156.0,128.0,,No,Flag: >120,Yes,204.0,Normal,Asymptomatic,Yes
+268,59,Male,134.0,126.0,,No,Flag: >120,Yes,218.0,Normal,Non-Anginal Chest Pain,Yes
+269,40,Male,181.0,152.0,,Yes,Flag: <=120,No,223.0,Normal,Asymptomatic,Yes
+270,42,Male,150.0,130.0,,No,Flag: <=120,No,180.0,Normal,Non-Anginal Chest Pain,No
+271,61,Male,138.0,140.0,,Yes,Flag: <=120,No,207.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+272,66,Male,138.0,160.0,,Yes,Flag: <=120,No,228.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+273,46,Male,120.0,140.0,,Yes,Flag: <=120,No,311.0,Normal,Asymptomatic,Yes
+274,71,Female,125.0,112.0,,No,Flag: <=120,No,149.0,Normal,Asymptomatic,No
+275,59,Male,162.0,134.0,,No,Flag: <=120,No,204.0,Normal,Typical Angina,Yes
+276,64,Male,155.0,170.0,,Yes,Flag: <=120,No,227.0,Left Ventricular Hypertrophy (LVH),Typical Angina,No
+277,66,Female,152.0,146.0,,Yes,Flag: <=120,No,278.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+278,39,Female,152.0,138.0,,No,Flag: <=120,No,220.0,Normal,Non-Anginal Chest Pain,No
+279,57,Male,164.0,154.0,,Yes,Flag: <=120,No,232.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,Yes
+280,58,Female,131.0,130.0,,No,Flag: <=120,No,197.0,Normal,Asymptomatic,No
+281,57,Male,143.0,110.0,,No,Flag: <=120,No,335.0,Normal,Asymptomatic,Yes
+282,47,Male,179.0,130.0,,No,Flag: <=120,No,253.0,Normal,Non-Anginal Chest Pain,No
+283,55,Female,130.0,128.0,,No,Flag: <=120,No,205.0,ST-T Wave Abnormality,Asymptomatic,Yes
+284,35,Male,174.0,122.0,,No,Flag: <=120,No,192.0,Normal,Atypical Angina,No
+285,61,Male,161.0,148.0,,Yes,Flag: <=120,No,203.0,Normal,Asymptomatic,Yes
+286,58,Male,140.0,114.0,,No,Flag: <=120,No,318.0,ST-T Wave Abnormality,Asymptomatic,Yes
+287,58,Female,146.0,170.0,,Yes,Flag: >120,Yes,225.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+288,58,Male,144.0,125.0,,No,Flag: <=120,No,220.0,Normal,Atypical Angina,No
+289,56,Male,163.0,130.0,,No,Flag: <=120,No,221.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+290,56,Male,169.0,120.0,,No,Flag: <=120,No,240.0,Normal,Atypical Angina,No
+291,67,Male,150.0,152.0,,Yes,Flag: <=120,No,212.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+292,55,Female,166.0,132.0,,No,Flag: <=120,No,342.0,Normal,Atypical Angina,No
+293,44,Male,144.0,120.0,,No,Flag: <=120,No,169.0,Normal,Asymptomatic,Yes
+294,63,Male,144.0,140.0,,Yes,Flag: <=120,No,187.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+295,63,Female,136.0,124.0,,No,Flag: <=120,No,197.0,Normal,Asymptomatic,Yes
+296,41,Male,182.0,120.0,,No,Flag: <=120,No,157.0,Normal,Atypical Angina,No
+297,59,Male,90.0,164.0,,Yes,Flag: >120,Yes,176.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+298,57,Female,123.0,140.0,,Yes,Flag: <=120,No,241.0,Normal,Asymptomatic,Yes
+299,45,Male,132.0,110.0,,No,Flag: <=120,No,264.0,Normal,Typical Angina,Yes
+300,68,Male,141.0,144.0,,Yes,Flag: >120,Yes,193.0,Normal,Asymptomatic,Yes
+301,57,Male,115.0,130.0,,No,Flag: <=120,No,131.0,Normal,Asymptomatic,Yes
+302,57,Female,174.0,130.0,,No,Flag: <=120,No,236.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,Yes
+303,38,Male,173.0,138.0,,No,Flag: <=120,No,175.0,Normal,Non-Anginal Chest Pain,No
+304,28,Male,185.0,130.0,,No,Flag: <=120,No,132.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+305,29,Male,160.0,120.0,,No,Flag: <=120,No,243.0,Normal,Atypical Angina,No
+306,29,Male,170.0,140.0,,Yes,Flag: <=120,No,,Normal,Atypical Angina,No
+307,30,Female,170.0,170.0,,Yes,Flag: <=120,No,237.0,ST-T Wave Abnormality,Typical Angina,No
+308,31,Female,150.0,100.0,,No,Flag: <=120,No,219.0,ST-T Wave Abnormality,Atypical Angina,No
+309,32,Female,165.0,105.0,,No,Flag: <=120,No,198.0,Normal,Atypical Angina,No
+310,32,Male,184.0,110.0,,No,Flag: <=120,No,225.0,Normal,Atypical Angina,No
+311,32,Male,155.0,125.0,,No,Flag: <=120,No,254.0,Normal,Atypical Angina,No
+312,33,Male,185.0,120.0,,No,Flag: <=120,No,298.0,Normal,Non-Anginal Chest Pain,No
+313,34,Female,190.0,130.0,,No,Flag: <=120,No,161.0,Normal,Atypical Angina,No
+314,34,Male,168.0,150.0,,Yes,Flag: <=120,No,214.0,ST-T Wave Abnormality,Atypical Angina,No
+315,34,Male,150.0,98.0,,No,Flag: <=120,No,220.0,Normal,Atypical Angina,No
+316,35,Female,185.0,120.0,,No,Flag: <=120,No,160.0,ST-T Wave Abnormality,Typical Angina,No
+317,35,Female,150.0,140.0,,Yes,Flag: <=120,No,167.0,Normal,Asymptomatic,No
+318,35,Male,180.0,120.0,,No,Flag: <=120,No,308.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+319,35,Male,168.0,150.0,,Yes,Flag: <=120,No,264.0,Normal,Atypical Angina,No
+320,36,Male,180.0,120.0,,No,Flag: <=120,No,166.0,Normal,Atypical Angina,No
+321,36,Male,184.0,112.0,,No,Flag: <=120,No,340.0,Normal,Non-Anginal Chest Pain,No
+322,36,Male,178.0,130.0,,No,Flag: <=120,No,209.0,Normal,Non-Anginal Chest Pain,No
+323,36,Male,172.0,150.0,,Yes,Flag: <=120,No,160.0,Normal,Non-Anginal Chest Pain,No
+324,37,Female,130.0,120.0,,No,Flag: <=120,No,260.0,Normal,Atypical Angina,No
+325,37,Female,142.0,130.0,,No,Flag: <=120,No,211.0,Normal,Non-Anginal Chest Pain,No
+326,37,Female,184.0,130.0,,No,Flag: <=120,No,173.0,ST-T Wave Abnormality,Asymptomatic,No
+327,37,Male,98.0,130.0,,No,Flag: <=120,No,283.0,ST-T Wave Abnormality,Atypical Angina,No
+328,37,Male,150.0,130.0,,No,Flag: <=120,No,194.0,Normal,Non-Anginal Chest Pain,No
+329,37,Male,168.0,120.0,,No,Flag: <=120,No,223.0,Normal,Asymptomatic,No
+330,37,Male,158.0,130.0,,No,Flag: <=120,No,315.0,Normal,Asymptomatic,No
+331,38,Female,129.0,120.0,,No,,,275.0,Normal,Atypical Angina,No
+332,38,Male,150.0,140.0,,Yes,Flag: <=120,No,297.0,Normal,Atypical Angina,No
+333,38,Male,130.0,145.0,,Yes,Flag: <=120,No,292.0,Normal,Non-Anginal Chest Pain,No
+334,39,Female,180.0,110.0,,No,Flag: <=120,No,182.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+335,39,Male,146.0,120.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Atypical Angina,No
+336,39,Male,160.0,120.0,,No,Flag: <=120,No,200.0,Normal,Atypical Angina,No
+337,39,Male,145.0,120.0,,No,Flag: <=120,No,204.0,Normal,Atypical Angina,No
+338,39,Male,120.0,130.0,,No,Flag: <=120,No,,Normal,Atypical Angina,No
+339,39,Male,106.0,190.0,,Yes,Flag: <=120,No,241.0,Normal,Atypical Angina,No
+340,39,Male,170.0,120.0,,No,Flag: <=120,No,339.0,Normal,Non-Anginal Chest Pain,No
+341,39,Male,160.0,160.0,,Yes,Flag: >120,Yes,147.0,Normal,Non-Anginal Chest Pain,No
+342,39,Male,132.0,110.0,,No,Flag: <=120,No,273.0,Normal,Asymptomatic,No
+343,39,Male,140.0,130.0,,No,Flag: <=120,No,307.0,Normal,Asymptomatic,No
+344,40,Male,150.0,130.0,,No,Flag: <=120,No,275.0,Normal,Atypical Angina,No
+345,40,Male,172.0,140.0,,Yes,Flag: <=120,No,289.0,Normal,Atypical Angina,No
+346,40,Male,138.0,130.0,,No,Flag: <=120,No,215.0,Normal,Non-Anginal Chest Pain,No
+347,40,Male,167.0,130.0,,No,Flag: <=120,No,281.0,Normal,Non-Anginal Chest Pain,No
+348,40,Male,188.0,140.0,,Yes,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,No
+349,41,Female,142.0,110.0,,No,Flag: <=120,No,250.0,ST-T Wave Abnormality,Atypical Angina,No
+350,41,Female,180.0,125.0,,No,Flag: <=120,No,184.0,Normal,Atypical Angina,No
+351,41,Female,150.0,130.0,,No,Flag: <=120,No,245.0,Normal,Atypical Angina,No
+352,41,Male,160.0,120.0,,No,Flag: <=120,No,291.0,ST-T Wave Abnormality,Atypical Angina,No
+353,41,Male,170.0,120.0,,No,Flag: <=120,No,295.0,Normal,Atypical Angina,No
+354,41,Male,144.0,125.0,,No,Flag: <=120,No,269.0,Normal,Atypical Angina,No
+355,41,Male,142.0,112.0,,No,Flag: <=120,No,250.0,Normal,Asymptomatic,No
+356,42,Female,137.0,115.0,,No,Flag: <=120,No,211.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+357,42,Male,150.0,120.0,,No,Flag: <=120,No,196.0,Normal,Atypical Angina,No
+358,42,Male,155.0,120.0,,No,Flag: <=120,No,198.0,Normal,Atypical Angina,No
+359,42,Male,136.0,150.0,,Yes,Flag: <=120,No,268.0,Normal,Atypical Angina,No
+360,42,Male,152.0,120.0,,No,Flag: <=120,No,228.0,Normal,Non-Anginal Chest Pain,No
+361,42,Male,146.0,160.0,,Yes,Flag: <=120,No,147.0,Normal,Non-Anginal Chest Pain,No
+362,42,Male,170.0,140.0,,Yes,Flag: <=120,No,358.0,Normal,Asymptomatic,No
+363,43,Female,142.0,100.0,,No,Flag: <=120,No,223.0,Normal,Typical Angina,No
+364,43,Female,165.0,120.0,,No,Flag: <=120,No,201.0,Normal,Atypical Angina,No
+365,43,Female,175.0,120.0,,No,Flag: <=120,No,215.0,ST-T Wave Abnormality,Atypical Angina,No
+366,43,Female,176.0,120.0,,No,Flag: <=120,No,249.0,ST-T Wave Abnormality,Atypical Angina,No
+367,43,Female,118.0,120.0,,No,Flag: <=120,No,266.0,Normal,Atypical Angina,No
+368,43,Female,154.0,150.0,,Yes,Flag: <=120,No,186.0,Normal,Atypical Angina,No
+369,43,Female,175.0,150.0,,Yes,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,No
+370,43,Male,138.0,142.0,,Yes,Flag: <=120,No,207.0,Normal,Atypical Angina,No
+371,44,Female,115.0,120.0,,No,Flag: <=120,No,218.0,ST-T Wave Abnormality,Asymptomatic,No
+372,44,Male,142.0,120.0,,No,Flag: <=120,No,184.0,Normal,Atypical Angina,No
+373,44,Male,135.0,130.0,,No,Flag: <=120,No,215.0,Normal,Atypical Angina,No
+374,44,Male,170.0,150.0,,Yes,Flag: <=120,No,412.0,Normal,Asymptomatic,No
+375,45,Female,170.0,130.0,,No,Flag: <=120,No,237.0,Normal,Atypical Angina,No
+376,45,Female,180.0,180.0,,Yes,Flag: <=120,No,,Normal,Atypical Angina,No
+377,45,Female,144.0,132.0,,No,Flag: <=120,No,297.0,Normal,Asymptomatic,No
+378,45,Male,122.0,140.0,,Yes,Flag: >120,Yes,224.0,Normal,Atypical Angina,No
+379,45,Male,110.0,135.0,,No,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,No
+380,45,Male,140.0,120.0,,No,Flag: <=120,No,225.0,Normal,Asymptomatic,No
+381,45,Male,144.0,140.0,,Yes,Flag: <=120,No,224.0,Normal,Asymptomatic,No
+382,46,Female,90.0,130.0,,No,Flag: <=120,No,238.0,Normal,Asymptomatic,No
+383,46,Male,165.0,140.0,,Yes,Flag: <=120,No,275.0,Normal,Atypical Angina,No
+384,46,Male,150.0,120.0,,No,Flag: <=120,No,230.0,Normal,Non-Anginal Chest Pain,No
+385,46,Male,116.0,150.0,,Yes,,,163.0,Normal,Non-Anginal Chest Pain,No
+386,46,Male,140.0,110.0,,No,Flag: <=120,No,238.0,ST-T Wave Abnormality,Asymptomatic,No
+387,46,Male,140.0,110.0,,No,Flag: <=120,No,240.0,ST-T Wave Abnormality,Asymptomatic,No
+388,46,Male,120.0,180.0,,Yes,Flag: <=120,No,280.0,ST-T Wave Abnormality,Asymptomatic,No
+389,47,Female,135.0,140.0,,Yes,Flag: <=120,No,257.0,Normal,Atypical Angina,No
+390,47,Female,145.0,130.0,,No,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,No
+391,47,Male,150.0,110.0,,No,Flag: <=120,No,249.0,Normal,Typical Angina,No
+392,47,Male,174.0,160.0,,Yes,Flag: <=120,No,263.0,Normal,Atypical Angina,No
+393,47,Male,125.0,140.0,,Yes,Flag: >120,Yes,276.0,Normal,Asymptomatic,No
+394,48,Female,,,,,Flag: <=120,No,308.0,ST-T Wave Abnormality,Atypical Angina,No
+395,48,Female,148.0,120.0,,No,Flag: >120,Yes,,ST-T Wave Abnormality,Atypical Angina,No
+396,48,Female,120.0,120.0,,No,Flag: <=120,No,284.0,Normal,Atypical Angina,No
+397,48,Female,125.0,120.0,,No,Flag: <=120,No,195.0,Normal,Non-Anginal Chest Pain,No
+398,48,Female,175.0,108.0,,No,Flag: <=120,No,163.0,Normal,Asymptomatic,No
+399,48,Female,110.0,120.0,,No,Flag: <=120,No,254.0,ST-T Wave Abnormality,Asymptomatic,No
+400,48,Female,130.0,150.0,,Yes,Flag: <=120,No,227.0,Normal,Asymptomatic,No
+401,48,Male,100.0,100.0,,No,Flag: <=120,No,,Normal,Atypical Angina,No
+402,48,Male,160.0,130.0,,No,Flag: <=120,No,245.0,Normal,Atypical Angina,No
+403,48,Male,118.0,140.0,,Yes,Flag: <=120,No,238.0,Normal,Atypical Angina,No
+404,48,Male,138.0,110.0,,No,Flag: <=120,No,211.0,Normal,Non-Anginal Chest Pain,No
+405,49,Female,160.0,110.0,,No,Flag: <=120,No,,Normal,Atypical Angina,No
+406,49,Female,160.0,110.0,,No,Flag: <=120,No,,Normal,Atypical Angina,No
+407,49,Female,164.0,124.0,,No,Flag: <=120,No,201.0,Normal,Atypical Angina,No
+408,49,Female,135.0,130.0,,No,Flag: <=120,No,207.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+409,49,Male,174.0,100.0,,No,Flag: <=120,No,253.0,Normal,Atypical Angina,No
+410,49,Male,172.0,140.0,,Yes,Flag: <=120,No,187.0,Normal,Non-Anginal Chest Pain,No
+411,49,Male,132.0,120.0,,No,,,297.0,Normal,Asymptomatic,No
+412,49,Male,130.0,140.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,No
+413,50,Female,145.0,110.0,,No,Flag: <=120,No,202.0,Normal,Atypical Angina,No
+414,50,Female,110.0,120.0,,No,Flag: <=120,No,328.0,Normal,Asymptomatic,No
+415,50,Male,160.0,120.0,,No,Flag: <=120,No,168.0,Normal,Atypical Angina,No
+416,50,Male,170.0,140.0,,Yes,Flag: <=120,No,216.0,Normal,Atypical Angina,No
+417,50,Male,116.0,170.0,,Yes,Flag: <=120,No,209.0,ST-T Wave Abnormality,Atypical Angina,No
+418,50,Male,135.0,140.0,,Yes,Flag: <=120,No,129.0,Normal,Asymptomatic,No
+419,50,Male,140.0,150.0,,Yes,Flag: <=120,No,215.0,Normal,Asymptomatic,No
+420,51,Female,170.0,160.0,,Yes,Flag: <=120,No,194.0,Normal,Atypical Angina,No
+421,51,Female,120.0,110.0,,No,Flag: <=120,No,190.0,Normal,Non-Anginal Chest Pain,No
+422,51,Female,160.0,130.0,,No,Flag: <=120,No,220.0,Normal,Non-Anginal Chest Pain,No
+423,51,Female,120.0,150.0,,Yes,Flag: <=120,No,200.0,Normal,Non-Anginal Chest Pain,No
+424,51,Male,145.0,125.0,,No,Flag: <=120,No,188.0,Normal,Atypical Angina,No
+425,51,Male,150.0,130.0,,No,Flag: <=120,No,224.0,Normal,Atypical Angina,No
+426,51,Male,100.0,130.0,,No,Flag: <=120,No,179.0,Normal,Asymptomatic,No
+427,52,Female,148.0,120.0,,No,Flag: <=120,No,210.0,Normal,Atypical Angina,No
+428,52,Female,140.0,140.0,,Yes,Flag: <=120,No,,Normal,Atypical Angina,No
+429,52,Female,139.0,125.0,,No,Flag: <=120,No,272.0,Normal,Non-Anginal Chest Pain,No
+430,52,Female,140.0,130.0,,No,Flag: <=120,No,180.0,Normal,Asymptomatic,No
+431,52,Male,118.0,120.0,,No,Flag: <=120,No,284.0,Normal,Atypical Angina,No
+432,52,Male,138.0,140.0,,Yes,Flag: <=120,No,100.0,Normal,Atypical Angina,No
+433,52,Male,165.0,160.0,,Yes,Flag: <=120,No,196.0,Normal,Atypical Angina,No
+434,52,Male,170.0,140.0,,Yes,Flag: <=120,No,259.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+435,53,Female,127.0,113.0,,No,,,468.0,Normal,Atypical Angina,No
+436,53,Female,142.0,140.0,,Yes,Flag: <=120,No,216.0,Normal,Atypical Angina,No
+437,53,Female,130.0,120.0,,No,Flag: <=120,No,274.0,Normal,Non-Anginal Chest Pain,No
+438,53,Male,132.0,120.0,,No,Flag: <=120,No,,Normal,Atypical Angina,No
+439,53,Male,162.0,140.0,,Yes,Flag: <=120,No,320.0,Normal,Atypical Angina,No
+440,53,Male,140.0,120.0,,No,Flag: <=120,No,195.0,Normal,Non-Anginal Chest Pain,No
+441,53,Male,112.0,124.0,,No,Flag: <=120,No,260.0,ST-T Wave Abnormality,Asymptomatic,No
+442,53,Male,148.0,130.0,,No,Flag: <=120,No,182.0,Normal,Asymptomatic,No
+443,53,Male,155.0,140.0,,Yes,Flag: <=120,No,243.0,Normal,Asymptomatic,No
+444,54,Female,138.0,120.0,,No,Flag: <=120,No,221.0,Normal,Atypical Angina,No
+445,54,Female,140.0,120.0,,No,Flag: >120,Yes,230.0,Normal,Atypical Angina,No
+446,54,Female,150.0,120.0,,No,Flag: <=120,No,273.0,Normal,Atypical Angina,No
+447,54,Female,155.0,130.0,,No,Flag: <=120,No,253.0,ST-T Wave Abnormality,Atypical Angina,No
+448,54,Female,140.0,140.0,,Yes,,,309.0,ST-T Wave Abnormality,Atypical Angina,No
+449,54,Female,130.0,150.0,,Yes,Flag: <=120,No,230.0,Normal,Atypical Angina,No
+450,54,Female,130.0,160.0,,Yes,Flag: <=120,No,312.0,Normal,Atypical Angina,No
+451,54,Male,137.0,120.0,,No,Flag: <=120,No,171.0,Normal,Typical Angina,No
+452,54,Male,142.0,110.0,,No,Flag: <=120,No,208.0,Normal,Atypical Angina,No
+453,54,Male,154.0,120.0,,No,Flag: <=120,No,238.0,Normal,Atypical Angina,No
+454,54,Male,110.0,120.0,,No,Flag: <=120,No,246.0,Normal,Atypical Angina,No
+455,54,Male,130.0,160.0,,Yes,Flag: <=120,No,195.0,ST-T Wave Abnormality,Atypical Angina,No
+456,54,Male,175.0,160.0,,Yes,Flag: <=120,No,305.0,Normal,Atypical Angina,No
+457,54,Male,137.0,120.0,,No,Flag: <=120,No,217.0,Normal,Non-Anginal Chest Pain,No
+458,54,Male,122.0,150.0,,Yes,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,No
+459,54,Male,134.0,150.0,,Yes,Flag: <=120,No,365.0,ST-T Wave Abnormality,Asymptomatic,No
+460,55,Female,160.0,110.0,,No,Flag: <=120,No,344.0,ST-T Wave Abnormality,Atypical Angina,No
+461,55,Female,155.0,122.0,,No,Flag: <=120,No,320.0,Normal,Atypical Angina,No
+462,55,Female,150.0,130.0,,No,Flag: <=120,No,394.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,No
+463,55,Male,137.0,120.0,,No,Flag: >120,Yes,256.0,Normal,Atypical Angina,No
+464,55,Male,150.0,140.0,,Yes,Flag: <=120,No,196.0,Normal,Atypical Angina,No
+465,55,Male,155.0,145.0,,Yes,Flag: <=120,No,326.0,Normal,Atypical Angina,No
+466,55,Male,160.0,110.0,,No,Flag: <=120,No,277.0,Normal,Non-Anginal Chest Pain,No
+467,55,Male,134.0,120.0,,No,Flag: <=120,No,220.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+468,55,Male,140.0,120.0,,No,Flag: <=120,No,270.0,Normal,Asymptomatic,No
+469,55,Male,110.0,140.0,,Yes,Flag: <=120,No,229.0,Normal,Asymptomatic,No
+470,56,Female,164.0,130.0,,No,,,219.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+471,56,Male,100.0,130.0,,No,Flag: <=120,No,184.0,Normal,Atypical Angina,No
+472,56,Male,114.0,130.0,,No,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,No
+473,56,Male,128.0,130.0,,No,Flag: <=120,No,276.0,Normal,Non-Anginal Chest Pain,No
+474,56,Male,140.0,120.0,,No,Flag: <=120,No,85.0,Normal,Asymptomatic,No
+475,57,Female,98.0,130.0,,No,Flag: <=120,No,308.0,Normal,Typical Angina,No
+476,57,Female,126.0,180.0,,Yes,Flag: <=120,No,347.0,ST-T Wave Abnormality,Asymptomatic,No
+477,57,Male,140.0,140.0,,Yes,Flag: >120,Yes,260.0,Normal,Atypical Angina,No
+478,58,Male,150.0,130.0,,No,Flag: <=120,No,230.0,Normal,Atypical Angina,No
+479,58,Male,110.0,130.0,,No,Flag: <=120,No,251.0,Normal,Atypical Angina,No
+480,58,Male,160.0,140.0,,Yes,Flag: <=120,No,179.0,Normal,Non-Anginal Chest Pain,No
+481,58,Male,100.0,135.0,,No,Flag: <=120,No,222.0,Normal,Asymptomatic,No
+482,59,Female,124.0,130.0,,No,Flag: <=120,No,188.0,Normal,Atypical Angina,No
+483,59,Male,150.0,140.0,,Yes,Flag: <=120,No,287.0,Normal,Atypical Angina,No
+484,59,Male,120.0,130.0,,No,Flag: <=120,No,318.0,Normal,Non-Anginal Chest Pain,No
+485,59,Male,100.0,180.0,,Yes,Flag: <=120,No,213.0,Normal,Non-Anginal Chest Pain,No
+486,59,Male,140.0,140.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,No
+487,60,Male,135.0,120.0,,No,Flag: <=120,No,246.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+488,61,Female,120.0,130.0,,No,Flag: <=120,No,294.0,ST-T Wave Abnormality,Asymptomatic,No
+489,61,Male,115.0,125.0,,No,Flag: <=120,No,292.0,ST-T Wave Abnormality,Asymptomatic,No
+490,62,Female,116.0,160.0,,Yes,Flag: <=120,No,193.0,Normal,Typical Angina,No
+491,62,Male,152.0,140.0,,Yes,Flag: <=120,No,271.0,Normal,Atypical Angina,No
+492,31,Male,153.0,120.0,,No,Flag: <=120,No,270.0,Normal,Asymptomatic,Yes
+493,33,Female,150.0,100.0,,No,Flag: <=120,No,246.0,Normal,Asymptomatic,Yes
+494,34,Male,180.0,140.0,,Yes,Flag: <=120,No,156.0,Normal,Typical Angina,Yes
+495,35,Male,140.0,110.0,,No,Flag: <=120,No,257.0,Normal,Atypical Angina,Yes
+496,36,Male,160.0,120.0,,No,Flag: <=120,No,267.0,Normal,Atypical Angina,Yes
+497,37,Male,130.0,140.0,,Yes,Flag: <=120,No,207.0,Normal,Asymptomatic,Yes
+498,38,Male,166.0,110.0,,No,Flag: <=120,No,196.0,Normal,Asymptomatic,Yes
+499,38,Male,170.0,120.0,,No,Flag: <=120,No,282.0,Normal,Asymptomatic,Yes
+500,38,Male,134.0,92.0,,No,Flag: <=120,No,117.0,Normal,Asymptomatic,Yes
+501,40,Male,152.0,120.0,,No,,,466.0,Normal,Asymptomatic,Yes
+502,41,Male,170.0,110.0,,No,Flag: <=120,No,289.0,Normal,Asymptomatic,Yes
+503,41,Male,138.0,120.0,,No,,,237.0,Normal,Asymptomatic,Yes
+504,43,Male,130.0,150.0,,Yes,Flag: <=120,No,247.0,Normal,Asymptomatic,Yes
+505,46,Male,150.0,110.0,,No,Flag: <=120,No,202.0,Normal,Asymptomatic,Yes
+506,46,Male,124.0,118.0,,No,Flag: <=120,No,186.0,Normal,Asymptomatic,Yes
+507,46,Male,125.0,120.0,,No,Flag: <=120,No,277.0,Normal,Asymptomatic,Yes
+508,47,Male,145.0,140.0,,Yes,Flag: <=120,No,193.0,Normal,Non-Anginal Chest Pain,Yes
+509,47,Male,98.0,150.0,,Yes,Flag: <=120,No,226.0,Normal,Asymptomatic,Yes
+510,48,Male,110.0,106.0,,No,Flag: >120,Yes,263.0,Normal,Asymptomatic,Yes
+511,48,Male,115.0,120.0,,No,Flag: <=120,No,260.0,Normal,Asymptomatic,Yes
+512,48,Male,103.0,160.0,,Yes,Flag: <=120,No,268.0,Normal,Asymptomatic,Yes
+513,49,Female,156.0,160.0,,Yes,Flag: <=120,No,180.0,Normal,Non-Anginal Chest Pain,Yes
+514,49,Male,175.0,115.0,,No,Flag: <=120,No,265.0,Normal,Non-Anginal Chest Pain,Yes
+515,49,Male,170.0,130.0,,No,Flag: <=120,No,206.0,Normal,Asymptomatic,Yes
+516,50,Female,140.0,140.0,,Yes,Flag: <=120,No,288.0,Normal,Non-Anginal Chest Pain,Yes
+517,50,Male,150.0,145.0,,Yes,Flag: <=120,No,264.0,Normal,Asymptomatic,Yes
+518,51,Female,150.0,160.0,,Yes,Flag: <=120,No,303.0,Normal,Asymptomatic,Yes
+519,52,Male,120.0,130.0,,No,Flag: <=120,No,225.0,Normal,Asymptomatic,Yes
+520,54,Male,140.0,125.0,,No,Flag: <=120,No,216.0,Normal,Asymptomatic,Yes
+521,54,Male,122.0,125.0,,No,Flag: <=120,No,224.0,Normal,Asymptomatic,Yes
+522,55,Male,130.0,140.0,,Yes,Flag: <=120,No,201.0,Normal,Asymptomatic,Yes
+523,57,Male,145.0,140.0,,Yes,Flag: <=120,No,265.0,ST-T Wave Abnormality,Atypical Angina,Yes
+524,58,Male,140.0,130.0,,No,Flag: <=120,No,213.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+525,59,Female,130.0,130.0,,No,Flag: >120,Yes,338.0,ST-T Wave Abnormality,Asymptomatic,Yes
+526,60,Male,125.0,100.0,,No,Flag: <=120,No,248.0,Normal,Asymptomatic,Yes
+527,63,Male,115.0,150.0,,Yes,Flag: <=120,No,223.0,Normal,Asymptomatic,Yes
+528,65,Male,87.0,140.0,,Yes,Flag: >120,Yes,306.0,Normal,Asymptomatic,Yes
+529,32,Male,130.0,118.0,,No,Flag: <=120,No,529.0,Normal,Asymptomatic,Yes
+530,38,Male,150.0,110.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+531,39,Male,150.0,110.0,,No,Flag: <=120,No,280.0,Normal,Asymptomatic,Yes
+532,40,Female,130.0,150.0,,Yes,Flag: <=120,No,392.0,Normal,Asymptomatic,Yes
+533,43,Male,155.0,120.0,,No,Flag: <=120,No,291.0,ST-T Wave Abnormality,Typical Angina,Yes
+534,45,Male,130.0,130.0,,No,Flag: <=120,No,219.0,ST-T Wave Abnormality,Asymptomatic,Yes
+535,46,Male,115.0,120.0,,No,Flag: <=120,No,231.0,Normal,Asymptomatic,Yes
+536,46,Male,112.0,130.0,,No,Flag: <=120,No,222.0,Normal,Asymptomatic,Yes
+537,48,Male,150.0,122.0,,No,Flag: >120,Yes,275.0,ST-T Wave Abnormality,Asymptomatic,Yes
+538,48,Male,102.0,160.0,,Yes,Flag: <=120,No,193.0,Normal,Asymptomatic,Yes
+539,48,Male,92.0,160.0,,Yes,Flag: <=120,No,329.0,Normal,Asymptomatic,Yes
+540,48,Male,99.0,160.0,,Yes,Flag: <=120,No,355.0,Normal,Asymptomatic,Yes
+541,50,Male,121.0,130.0,,No,Flag: <=120,No,233.0,Normal,Asymptomatic,Yes
+542,52,Male,150.0,120.0,,No,Flag: <=120,No,182.0,Normal,Asymptomatic,Yes
+543,52,Male,126.0,170.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+544,53,Male,116.0,120.0,,No,Flag: <=120,No,246.0,Normal,Asymptomatic,Yes
+545,54,Male,150.0,120.0,,No,Flag: <=120,No,237.0,Normal,Non-Anginal Chest Pain,Yes
+546,54,Male,91.0,130.0,,No,Flag: <=120,No,242.0,Normal,Asymptomatic,Yes
+547,54,Male,125.0,130.0,,No,Flag: >120,Yes,603.0,Normal,Asymptomatic,Yes
+548,54,Male,118.0,140.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+549,54,Male,142.0,200.0,,Yes,Flag: <=120,No,198.0,Normal,Asymptomatic,Yes
+550,55,Male,128.0,140.0,,Yes,Flag: <=120,No,268.0,Normal,Asymptomatic,Yes
+551,56,Male,125.0,150.0,,Yes,Flag: >120,Yes,213.0,Normal,Asymptomatic,Yes
+552,57,Male,92.0,150.0,,Yes,Flag: <=120,No,255.0,Normal,Asymptomatic,Yes
+553,58,Male,92.0,160.0,,Yes,Flag: >120,Yes,211.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+554,58,Male,140.0,130.0,,No,Flag: <=120,No,263.0,Normal,Asymptomatic,Yes
+555,41,Male,130.0,130.0,,No,Flag: <=120,No,172.0,ST-T Wave Abnormality,Asymptomatic,Yes
+556,43,Male,120.0,120.0,,No,Flag: <=120,No,175.0,Normal,Asymptomatic,Yes
+557,44,Male,150.0,150.0,,Yes,Flag: <=120,No,288.0,Normal,Atypical Angina,Yes
+558,44,Male,100.0,130.0,,No,Flag: <=120,No,290.0,Normal,Asymptomatic,Yes
+559,46,Male,175.0,140.0,,Yes,Flag: >120,Yes,272.0,Normal,Typical Angina,Yes
+560,47,Female,170.0,135.0,,No,Flag: >120,Yes,248.0,Normal,Non-Anginal Chest Pain,Yes
+561,48,Female,108.0,138.0,,No,Flag: <=120,No,214.0,Normal,Asymptomatic,Yes
+562,49,Male,120.0,130.0,,No,Flag: <=120,No,341.0,Normal,Asymptomatic,Yes
+563,49,Male,140.0,140.0,,Yes,Flag: <=120,No,234.0,Normal,Asymptomatic,Yes
+564,51,Male,150.0,135.0,,No,Flag: <=120,No,160.0,Normal,Non-Anginal Chest Pain,Yes
+565,52,Male,96.0,112.0,,No,Flag: <=120,No,342.0,ST-T Wave Abnormality,Asymptomatic,Yes
+566,52,Male,110.0,130.0,,No,Flag: <=120,No,298.0,Normal,Asymptomatic,Yes
+567,52,Male,124.0,140.0,,Yes,Flag: <=120,No,404.0,Normal,Asymptomatic,Yes
+568,52,Male,82.0,160.0,,Yes,Flag: <=120,No,246.0,ST-T Wave Abnormality,Asymptomatic,Yes
+569,53,Male,130.0,145.0,,Yes,Flag: <=120,No,518.0,Normal,Non-Anginal Chest Pain,Yes
+570,53,Male,120.0,180.0,,Yes,Flag: <=120,No,285.0,ST-T Wave Abnormality,Asymptomatic,Yes
+571,54,Male,105.0,140.0,,Yes,Flag: <=120,No,216.0,Normal,Asymptomatic,Yes
+572,55,Male,136.0,140.0,,Yes,Flag: <=120,No,295.0,,Typical Angina,Yes
+573,55,Male,143.0,160.0,,Yes,Flag: >120,Yes,292.0,Normal,Atypical Angina,Yes
+574,55,Male,96.0,145.0,,Yes,Flag: <=120,No,248.0,Normal,Asymptomatic,Yes
+575,56,Female,150.0,120.0,,No,Flag: <=120,No,279.0,Normal,Atypical Angina,Yes
+576,56,Male,124.0,150.0,,Yes,Flag: <=120,No,230.0,ST-T Wave Abnormality,Asymptomatic,Yes
+577,56,Male,122.0,170.0,,Yes,Flag: <=120,No,388.0,ST-T Wave Abnormality,Asymptomatic,Yes
+578,58,Male,99.0,136.0,,No,Flag: <=120,No,164.0,ST-T Wave Abnormality,Atypical Angina,Yes
+579,59,Male,125.0,130.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+580,59,Male,119.0,140.0,,Yes,Flag: >120,Yes,264.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+581,65,Male,112.0,170.0,,Yes,Flag: >120,Yes,263.0,Normal,Asymptomatic,Yes
+582,66,Male,94.0,140.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+583,41,Male,118.0,120.0,,No,Flag: <=120,No,336.0,Normal,Asymptomatic,Yes
+584,43,Male,135.0,140.0,,Yes,Flag: <=120,No,288.0,Normal,Asymptomatic,Yes
+585,44,Male,135.0,135.0,,No,Flag: <=120,No,491.0,Normal,Asymptomatic,Yes
+586,47,Female,98.0,120.0,,No,Flag: <=120,No,205.0,Normal,Asymptomatic,Yes
+587,47,Male,158.0,160.0,,Yes,Flag: <=120,No,291.0,ST-T Wave Abnormality,Asymptomatic,Yes
+588,49,Male,96.0,128.0,,No,Flag: <=120,No,212.0,Normal,Asymptomatic,Yes
+589,49,Male,122.0,150.0,,Yes,Flag: <=120,No,222.0,Normal,Asymptomatic,Yes
+590,50,Male,140.0,140.0,,Yes,Flag: <=120,No,231.0,ST-T Wave Abnormality,Asymptomatic,Yes
+591,50,Male,125.0,140.0,,Yes,Flag: <=120,No,341.0,ST-T Wave Abnormality,Asymptomatic,Yes
+592,52,Male,134.0,140.0,,Yes,Flag: <=120,No,266.0,Normal,Asymptomatic,Yes
+593,52,Male,94.0,160.0,,Yes,Flag: <=120,No,331.0,Normal,Asymptomatic,Yes
+594,54,Female,100.0,130.0,,No,Flag: <=120,No,294.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+595,56,Male,150.0,155.0,,Yes,Flag: >120,Yes,342.0,Normal,Asymptomatic,Yes
+596,58,Female,110.0,180.0,,Yes,Flag: <=120,No,393.0,Normal,Atypical Angina,Yes
+597,65,Male,115.0,130.0,,No,Flag: <=120,No,275.0,ST-T Wave Abnormality,Asymptomatic,Yes
+598,32,Male,127.0,95.0,,No,,,,Normal,Typical Angina,Yes
+599,34,Male,154.0,115.0,,No,,,,,Asymptomatic,Yes
+600,35,Male,130.0,,,,,,,Normal,Asymptomatic,Yes
+601,36,Male,125.0,110.0,,No,,,,Normal,Asymptomatic,Yes
+602,38,Female,166.0,105.0,,No,,,,Normal,Asymptomatic,Yes
+603,38,Female,156.0,110.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+604,38,Male,179.0,100.0,,No,,,,Normal,Non-Anginal Chest Pain,No
+605,38,Male,128.0,115.0,,No,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,Yes
+606,38,Male,150.0,135.0,,No,,,,Normal,Asymptomatic,Yes
+607,38,Male,120.0,150.0,,Yes,,,,Normal,Asymptomatic,Yes
+608,40,Male,144.0,95.0,,No,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+609,41,Male,176.0,125.0,,No,,,,Normal,Asymptomatic,Yes
+610,42,Male,128.0,105.0,,No,,,,Normal,Asymptomatic,Yes
+611,42,Male,99.0,145.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+612,43,Male,122.0,100.0,,No,,,,Normal,Asymptomatic,Yes
+613,43,Male,145.0,115.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+614,43,Male,140.0,140.0,,Yes,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+615,45,Male,138.0,110.0,,No,,,,Normal,Non-Anginal Chest Pain,No
+616,46,Male,133.0,100.0,,No,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+617,46,Male,113.0,115.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+618,47,Male,120.0,110.0,,No,,,,Normal,Non-Anginal Chest Pain,Yes
+619,47,Male,118.0,155.0,,Yes,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,Yes
+620,47,Male,149.0,110.0,,No,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+621,47,Male,124.0,160.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+622,48,Male,128.0,115.0,,No,,,,Normal,Asymptomatic,Yes
+623,50,Female,110.0,160.0,,Yes,,,,Normal,Asymptomatic,Yes
+624,50,Male,120.0,115.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+625,50,Male,156.0,120.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+626,50,Male,139.0,145.0,,Yes,,,,Normal,Asymptomatic,Yes
+627,51,Female,127.0,120.0,,No,,,,Normal,Asymptomatic,Yes
+628,51,Male,92.0,110.0,,No,,,,Normal,Asymptomatic,Yes
+629,51,Male,104.0,120.0,,No,Flag: >120,Yes,,Normal,Asymptomatic,Yes
+630,51,Male,170.0,130.0,,No,,,,Normal,Asymptomatic,Yes
+631,51,Male,163.0,130.0,,No,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+632,51,Male,60.0,140.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+633,51,Male,126.0,95.0,,No,,,,Normal,Asymptomatic,Yes
+634,52,Male,120.0,130.0,,No,,,,Normal,Asymptomatic,Yes
+635,52,Male,128.0,135.0,,No,,,,Normal,Asymptomatic,Yes
+636,52,Male,122.0,165.0,,Yes,,,,Normal,Asymptomatic,Yes
+637,52,Male,82.0,95.0,,No,,,,Normal,Asymptomatic,Yes
+638,53,Male,95.0,120.0,,No,Flag: <=120,No,,Normal,Atypical Angina,Yes
+639,53,Male,120.0,130.0,,No,,,,ST-T Wave Abnormality,Atypical Angina,No
+640,53,Male,115.0,105.0,,No,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,Yes
+641,53,Male,122.0,160.0,,Yes,,,,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+642,53,Male,120.0,120.0,,No,,,,Normal,Asymptomatic,Yes
+643,53,Male,120.0,125.0,,No,,,,Normal,Asymptomatic,Yes
+644,53,Male,135.0,130.0,,No,Flag: <=120,No,,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+645,53,Male,141.0,80.0,,No,,,,Normal,Asymptomatic,No
+646,54,Male,155.0,120.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+647,54,Male,110.0,130.0,,No,,,,Normal,Asymptomatic,Yes
+648,54,Male,150.0,180.0,,Yes,,,,Normal,Asymptomatic,Yes
+649,55,Male,150.0,140.0,,Yes,,,,ST-T Wave Abnormality,Atypical Angina,No
+650,55,Male,155.0,115.0,,No,,,,Normal,Asymptomatic,Yes
+651,55,Male,92.0,120.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+652,55,Male,83.0,140.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+653,56,Male,97.0,120.0,,No,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,No
+654,56,Male,98.0,125.0,,No,,,,Normal,Non-Anginal Chest Pain,Yes
+655,56,Male,99.0,155.0,,Yes,Flag: <=120,No,,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+656,56,Male,82.0,115.0,,No,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+657,56,Male,100.0,120.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+658,56,Male,148.0,120.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+659,56,Male,103.0,125.0,,No,Flag: >120,Yes,,Normal,Asymptomatic,Yes
+660,56,Male,121.0,140.0,,Yes,,,,Normal,Asymptomatic,Yes
+661,57,Male,148.0,105.0,,No,,,,Normal,Non-Anginal Chest Pain,Yes
+662,57,Male,131.0,110.0,,No,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+663,57,Male,120.0,140.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+664,57,Male,100.0,140.0,,Yes,,,,Normal,Asymptomatic,Yes
+665,57,Male,98.0,160.0,,Yes,,,,Normal,Asymptomatic,Yes
+666,57,Male,182.0,95.0,,No,,,,Normal,Asymptomatic,Yes
+667,58,Male,138.0,115.0,,No,,,,Normal,Asymptomatic,Yes
+668,58,Male,100.0,130.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+669,58,Male,105.0,170.0,,Yes,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+670,59,Male,175.0,125.0,,No,,,,Normal,Non-Anginal Chest Pain,Yes
+671,59,Male,94.0,110.0,,No,,,,Normal,Asymptomatic,Yes
+672,59,Male,115.0,120.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+673,59,Male,119.0,125.0,,No,,,,Normal,Asymptomatic,Yes
+674,59,Male,115.0,135.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+675,60,Male,143.0,115.0,,No,,,,Normal,Non-Anginal Chest Pain,Yes
+676,60,Male,110.0,125.0,,No,,,,Normal,Asymptomatic,Yes
+677,60,Male,130.0,130.0,,No,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+678,60,Male,63.0,135.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+679,60,Male,99.0,160.0,,Yes,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+680,60,Male,149.0,160.0,,Yes,,,,Normal,Asymptomatic,Yes
+681,61,Male,70.0,200.0,,Yes,,,,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+682,61,Male,110.0,105.0,,No,,,,Normal,Asymptomatic,Yes
+683,61,Male,113.0,110.0,,No,,,,Normal,Asymptomatic,Yes
+684,61,Male,105.0,125.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+685,61,Male,115.0,130.0,,No,Flag: <=120,No,,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+686,61,Male,77.0,130.0,,No,,,,Normal,Asymptomatic,Yes
+687,61,Male,105.0,150.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+688,61,Male,117.0,150.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+689,61,Male,145.0,160.0,,Yes,Flag: >120,Yes,,ST-T Wave Abnormality,Asymptomatic,Yes
+690,62,Female,143.0,140.0,,Yes,,,,Normal,Typical Angina,Yes
+691,62,Female,123.0,120.0,,No,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+692,62,Male,134.0,120.0,,No,,,,Left Ventricular Hypertrophy (LVH),Typical Angina,Yes
+693,62,Male,72.0,160.0,,Yes,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,Yes
+694,62,Male,128.0,115.0,,No,,,,Normal,Asymptomatic,Yes
+695,62,Male,72.0,115.0,,No,,,,Normal,Asymptomatic,Yes
+696,62,Male,78.0,150.0,,Yes,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+697,63,Male,109.0,100.0,,No,,,,Normal,Asymptomatic,Yes
+698,63,Male,149.0,140.0,,Yes,,,,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+699,63,Male,86.0,150.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+700,63,Male,154.0,150.0,,Yes,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+701,63,Male,98.0,185.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+702,64,Female,140.0,200.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+703,64,Female,145.0,95.0,,No,,,,Normal,Asymptomatic,Yes
+704,64,Male,114.0,110.0,,No,,,,Normal,Asymptomatic,Yes
+705,65,Male,93.0,115.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+706,65,Male,67.0,145.0,,Yes,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+707,65,Male,154.0,155.0,,Yes,,,,Normal,Asymptomatic,No
+708,65,Male,122.0,160.0,,Yes,Flag: >120,Yes,,ST-T Wave Abnormality,Asymptomatic,Yes
+709,66,Female,90.0,155.0,,Yes,,,,Normal,Asymptomatic,Yes
+710,66,Male,108.0,150.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+711,67,Male,125.0,145.0,,Yes,Flag: <=120,No,,Left Ventricular Hypertrophy (LVH),Typical Angina,Yes
+712,68,Male,120.0,135.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+713,68,Male,136.0,145.0,,Yes,,,,Normal,Asymptomatic,Yes
+714,69,Male,130.0,135.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+715,69,Male,,,,,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+716,70,Male,92.0,115.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+717,70,Male,157.0,140.0,,Yes,Flag: >120,Yes,,Normal,Asymptomatic,Yes
+718,72,Male,114.0,160.0,,Yes,,,,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+719,73,Female,121.0,160.0,,Yes,Flag: <=120,No,,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+720,74,Male,123.0,145.0,,Yes,,,,ST-T Wave Abnormality,Atypical Angina,Yes
+721,63,Male,112.0,140.0,,Yes,Flag: <=120,No,260.0,ST-T Wave Abnormality,Asymptomatic,Yes
+722,44,Male,127.0,130.0,,No,Flag: <=120,No,209.0,ST-T Wave Abnormality,Asymptomatic,No
+723,60,Male,140.0,132.0,,No,Flag: <=120,No,218.0,ST-T Wave Abnormality,Asymptomatic,Yes
+724,55,Male,149.0,142.0,,Yes,Flag: <=120,No,228.0,ST-T Wave Abnormality,Asymptomatic,Yes
+725,66,Male,99.0,110.0,,No,Flag: >120,Yes,213.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+726,66,Male,120.0,120.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+727,65,Male,105.0,150.0,,Yes,Flag: >120,Yes,236.0,ST-T Wave Abnormality,Asymptomatic,Yes
+728,60,Male,140.0,180.0,,Yes,Flag: <=120,No,,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+729,60,Male,141.0,120.0,,No,,,,Normal,Non-Anginal Chest Pain,Yes
+730,60,Male,157.0,160.0,,Yes,Flag: >120,Yes,267.0,ST-T Wave Abnormality,Atypical Angina,Yes
+731,56,Male,140.0,126.0,,No,Flag: <=120,No,166.0,ST-T Wave Abnormality,Atypical Angina,No
+732,59,Male,117.0,140.0,,Yes,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+733,62,Male,120.0,110.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+734,63,Male,,,,,Flag: <=120,No,,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+735,57,Male,148.0,128.0,,No,Flag: >120,Yes,,ST-T Wave Abnormality,Asymptomatic,Yes
+736,62,Male,86.0,120.0,,No,Flag: <=120,No,220.0,ST-T Wave Abnormality,Asymptomatic,No
+737,63,Male,84.0,170.0,,Yes,Flag: <=120,No,177.0,Normal,Asymptomatic,Yes
+738,46,Male,125.0,110.0,,No,Flag: <=120,No,236.0,Normal,Asymptomatic,Yes
+739,63,Male,120.0,126.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,No
+740,60,Male,118.0,152.0,,Yes,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,No
+741,58,Male,124.0,116.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+742,64,Male,106.0,120.0,,No,Flag: >120,Yes,,ST-T Wave Abnormality,Asymptomatic,Yes
+743,63,Male,111.0,130.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+744,74,Male,,,,,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,No
+745,52,Male,180.0,128.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+746,69,Male,129.0,130.0,,No,Flag: >120,Yes,,ST-T Wave Abnormality,Asymptomatic,Yes
+747,51,Male,,,,,Flag: >120,Yes,,ST-T Wave Abnormality,Asymptomatic,Yes
+748,60,Male,140.0,130.0,,No,Flag: >120,Yes,186.0,ST-T Wave Abnormality,Asymptomatic,Yes
+749,56,Male,120.0,120.0,,No,Flag: <=120,No,100.0,Normal,Asymptomatic,Yes
+750,55,Male,,,,,Flag: <=120,No,228.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+751,54,Male,,,,,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+752,77,Male,110.0,124.0,,No,Flag: <=120,No,171.0,ST-T Wave Abnormality,Asymptomatic,Yes
+753,63,Male,105.0,160.0,,Yes,Flag: >120,Yes,230.0,Normal,Asymptomatic,Yes
+754,55,Male,155.0,0.0,,No,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,Yes
+755,52,Male,110.0,122.0,,No,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,Yes
+756,64,Male,122.0,144.0,,Yes,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,Yes
+757,60,Male,,,,,Flag: <=120,No,281.0,ST-T Wave Abnormality,Asymptomatic,Yes
+758,60,Male,133.0,120.0,,No,Flag: <=120,No,,Normal,Asymptomatic,No
+759,58,Male,,,,,Flag: >120,Yes,203.0,Normal,Asymptomatic,Yes
+760,59,Male,131.0,154.0,,Yes,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,No
+761,61,Male,80.0,120.0,,No,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,Yes
+762,40,Male,165.0,125.0,,No,Flag: >120,Yes,,Normal,Asymptomatic,Yes
+763,61,Male,86.0,,,,Flag: >120,Yes,,ST-T Wave Abnormality,Asymptomatic,Yes
+764,41,Male,111.0,104.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Asymptomatic,No
+765,57,Male,,,,,Flag: >120,Yes,277.0,ST-T Wave Abnormality,Asymptomatic,Yes
+766,63,Male,84.0,136.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+767,59,Male,117.0,122.0,,No,Flag: <=120,No,233.0,Normal,Asymptomatic,Yes
+768,51,Male,107.0,128.0,,No,Flag: <=120,No,,Normal,Asymptomatic,No
+769,59,Male,128.0,,,,Flag: <=120,No,,Normal,Non-Anginal Chest Pain,Yes
+770,42,Male,160.0,134.0,,No,,,240.0,Normal,Non-Anginal Chest Pain,No
+771,55,Male,125.0,120.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+772,63,Female,,,,,Flag: <=120,No,,Normal,Atypical Angina,No
+773,62,Male,97.0,152.0,,Yes,Flag: <=120,No,153.0,ST-T Wave Abnormality,Asymptomatic,Yes
+774,56,Male,161.0,124.0,,No,Flag: >120,Yes,224.0,Normal,Atypical Angina,No
+775,53,Male,106.0,126.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+776,68,Male,130.0,138.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+777,53,Male,140.0,154.0,,Yes,,,,ST-T Wave Abnormality,Asymptomatic,Yes
+778,60,Male,,,,,Flag: >120,Yes,316.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+779,62,Male,,,,,Flag: <=120,No,,Normal,Atypical Angina,No
+780,59,Male,120.0,178.0,,Yes,Flag: >120,Yes,,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+781,51,Male,,,,,Flag: >120,Yes,218.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+782,61,Male,108.0,110.0,,No,,,,Normal,Asymptomatic,Yes
+783,57,Male,148.0,130.0,,No,,,311.0,ST-T Wave Abnormality,Asymptomatic,Yes
+784,56,Male,123.0,170.0,,Yes,Flag: <=120,No,,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+785,58,Male,110.0,126.0,,No,Flag: >120,Yes,,Normal,Atypical Angina,Yes
+786,69,Male,118.0,140.0,,Yes,,,,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+787,67,Male,125.0,142.0,,Yes,Flag: >120,Yes,270.0,Normal,Typical Angina,Yes
+788,58,Male,106.0,120.0,,No,Flag: <=120,No,,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+789,65,Male,,,,,Flag: <=120,No,,Normal,Asymptomatic,Yes
+790,63,Male,,,,,Flag: >120,Yes,217.0,ST-T Wave Abnormality,Atypical Angina,Yes
+791,55,Male,180.0,110.0,,No,Flag: >120,Yes,214.0,ST-T Wave Abnormality,Atypical Angina,No
+792,57,Male,144.0,140.0,,Yes,Flag: <=120,No,214.0,ST-T Wave Abnormality,Asymptomatic,Yes
+793,65,Male,,,,,Flag: <=120,No,252.0,Normal,Typical Angina,No
+794,54,Male,140.0,136.0,,No,Flag: <=120,No,220.0,Normal,Asymptomatic,Yes
+795,72,Male,102.0,120.0,,No,Flag: <=120,No,214.0,Normal,Non-Anginal Chest Pain,Yes
+796,75,Male,108.0,170.0,,Yes,Flag: >120,Yes,203.0,ST-T Wave Abnormality,Asymptomatic,Yes
+797,49,Male,145.0,130.0,,No,Flag: <=120,No,,ST-T Wave Abnormality,Typical Angina,Yes
+798,51,Male,,,,,Flag: <=120,No,339.0,Normal,Non-Anginal Chest Pain,Yes
+799,60,Male,110.0,142.0,,Yes,Flag: <=120,No,216.0,Normal,Asymptomatic,Yes
+800,64,Female,140.0,142.0,,Yes,Flag: <=120,No,276.0,Normal,Asymptomatic,Yes
+801,58,Male,69.0,132.0,,No,Flag: >120,Yes,458.0,Normal,Asymptomatic,No
+802,61,Male,148.0,146.0,,Yes,Flag: <=120,No,241.0,Normal,Asymptomatic,Yes
+803,67,Male,130.0,160.0,,Yes,Flag: >120,Yes,384.0,ST-T Wave Abnormality,Asymptomatic,Yes
+804,62,Male,130.0,135.0,,No,Flag: <=120,No,297.0,Normal,Asymptomatic,Yes
+805,65,Male,140.0,136.0,,No,Flag: <=120,No,248.0,Normal,Asymptomatic,Yes
+806,63,Male,138.0,130.0,,No,Flag: <=120,No,308.0,Normal,Asymptomatic,Yes
+807,69,Male,140.0,140.0,,Yes,Flag: <=120,No,208.0,ST-T Wave Abnormality,Asymptomatic,Yes
+808,51,Male,,,,,Flag: >120,Yes,227.0,ST-T Wave Abnormality,Asymptomatic,No
+809,62,Male,112.0,158.0,,Yes,Flag: >120,Yes,210.0,Normal,Asymptomatic,Yes
+810,55,Male,,,,,Flag: >120,Yes,245.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+811,75,Male,112.0,136.0,,No,Flag: <=120,No,225.0,Normal,Asymptomatic,Yes
+812,40,Male,80.0,106.0,,No,Flag: <=120,No,240.0,Normal,Non-Anginal Chest Pain,No
+813,67,Male,150.0,120.0,,No,Flag: >120,Yes,,Normal,Asymptomatic,Yes
+814,58,Male,110.0,110.0,,No,Flag: <=120,No,198.0,Normal,Asymptomatic,Yes
+815,60,Male,,,,,Flag: <=120,No,195.0,Normal,Asymptomatic,No
+816,63,Male,88.0,160.0,,Yes,Flag: >120,Yes,267.0,ST-T Wave Abnormality,Asymptomatic,Yes
+817,35,Male,,,,,Flag: <=120,No,161.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+818,62,Male,150.0,112.0,,No,Flag: <=120,No,258.0,ST-T Wave Abnormality,Typical Angina,Yes
+819,43,Male,120.0,122.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+820,63,Male,160.0,130.0,,No,Flag: >120,Yes,,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+821,68,Male,132.0,150.0,,Yes,Flag: >120,Yes,195.0,Normal,Non-Anginal Chest Pain,Yes
+822,65,Male,120.0,150.0,,Yes,Flag: <=120,No,235.0,Normal,Asymptomatic,Yes
+823,48,Male,110.0,102.0,,No,,,,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+824,63,Male,121.0,96.0,,No,Flag: <=120,No,305.0,ST-T Wave Abnormality,Asymptomatic,Yes
+825,64,Male,128.0,130.0,,No,Flag: <=120,No,223.0,ST-T Wave Abnormality,Asymptomatic,No
+826,61,Male,135.0,120.0,,No,Flag: <=120,No,282.0,ST-T Wave Abnormality,Asymptomatic,Yes
+827,50,Male,120.0,144.0,,Yes,Flag: <=120,No,349.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+828,59,Male,117.0,124.0,,No,Flag: <=120,No,,Normal,Asymptomatic,Yes
+829,55,Male,150.0,150.0,,Yes,Flag: <=120,No,160.0,ST-T Wave Abnormality,Asymptomatic,No
+830,45,Male,,,,,Flag: <=120,No,236.0,Normal,Non-Anginal Chest Pain,No
+831,65,Male,,,,,Flag: <=120,No,312.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+832,61,Male,,,,,Flag: <=120,No,283.0,Normal,Atypical Angina,No
+833,49,Male,,,,,Flag: <=120,No,142.0,Normal,Non-Anginal Chest Pain,Yes
+834,72,Male,,,,,Flag: <=120,No,211.0,Normal,Asymptomatic,Yes
+835,50,Male,,,,,Flag: <=120,No,218.0,Normal,Asymptomatic,Yes
+836,64,Male,,,,,Flag: >120,Yes,306.0,ST-T Wave Abnormality,Asymptomatic,Yes
+837,55,Male,102.0,116.0,,No,Flag: >120,Yes,186.0,ST-T Wave Abnormality,Asymptomatic,Yes
+838,63,Male,140.0,110.0,,No,Flag: <=120,No,252.0,ST-T Wave Abnormality,Asymptomatic,Yes
+839,59,Male,135.0,125.0,,No,Flag: <=120,No,222.0,Normal,Asymptomatic,Yes
+840,56,Male,,,,,Flag: <=120,No,,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+841,62,Male,,,,,Flag: >120,Yes,,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+842,74,Male,130.0,150.0,,Yes,Flag: >120,Yes,258.0,ST-T Wave Abnormality,Asymptomatic,Yes
+843,54,Male,112.0,130.0,,No,Flag: >120,Yes,202.0,Normal,Asymptomatic,Yes
+844,57,Male,100.0,110.0,,No,Flag: <=120,No,197.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+845,62,Male,,,,,Flag: <=120,No,204.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+846,76,Male,120.0,104.0,,No,Flag: <=120,No,,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,Yes
+847,54,Female,105.0,138.0,,No,Flag: <=120,No,274.0,Normal,Asymptomatic,Yes
+848,70,Male,129.0,170.0,,Yes,Flag: <=120,No,192.0,ST-T Wave Abnormality,Asymptomatic,Yes
+849,61,Female,120.0,140.0,,Yes,Flag: >120,Yes,298.0,Normal,Atypical Angina,No
+850,48,Male,,,,,Flag: <=120,No,272.0,ST-T Wave Abnormality,Asymptomatic,No
+851,48,Male,162.0,132.0,,No,Flag: >120,Yes,220.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+852,61,Male,100.0,142.0,,Yes,Flag: >120,Yes,200.0,ST-T Wave Abnormality,Typical Angina,Yes
+853,66,Male,140.0,112.0,,No,Flag: <=120,No,261.0,Normal,Asymptomatic,Yes
+854,68,Male,,,,,Flag: >120,Yes,181.0,ST-T Wave Abnormality,Typical Angina,No
+855,55,Male,73.0,172.0,,Yes,Flag: <=120,No,260.0,Normal,Asymptomatic,Yes
+856,62,Male,86.0,120.0,,No,Flag: <=120,No,220.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+857,71,Male,,,,,Flag: <=120,No,221.0,Normal,Non-Anginal Chest Pain,Yes
+858,74,Male,,,,,Flag: >120,Yes,216.0,Normal,Typical Angina,Yes
+859,53,Male,160.0,155.0,,Yes,Flag: >120,Yes,175.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+860,58,Male,118.0,150.0,,Yes,Flag: <=120,No,219.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+861,75,Male,112.0,160.0,,Yes,Flag: >120,Yes,310.0,Normal,Asymptomatic,No
+862,56,Male,,,,,Flag: >120,Yes,208.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+863,58,Male,,,,,Flag: <=120,No,232.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+864,64,Male,102.0,134.0,,No,Flag: <=120,No,273.0,Normal,Asymptomatic,Yes
+865,54,Male,,,,,Flag: <=120,No,203.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+866,54,Male,,,,,Flag: <=120,No,182.0,ST-T Wave Abnormality,Atypical Angina,No
+867,59,Male,154.0,140.0,,Yes,Flag: <=120,No,274.0,Normal,Asymptomatic,No
+868,55,Male,,,,,Flag: >120,Yes,204.0,ST-T Wave Abnormality,Asymptomatic,Yes
+869,57,Male,160.0,144.0,,Yes,Flag: >120,Yes,270.0,ST-T Wave Abnormality,Asymptomatic,Yes
+870,61,Male,,,,,Flag: <=120,No,292.0,ST-T Wave Abnormality,Asymptomatic,Yes
+871,41,Male,128.0,150.0,,Yes,Flag: <=120,No,171.0,Normal,Asymptomatic,No
+872,71,Male,115.0,130.0,,No,Flag: <=120,No,221.0,ST-T Wave Abnormality,Asymptomatic,Yes
+873,38,Male,105.0,110.0,,No,Flag: <=120,No,289.0,Normal,Asymptomatic,Yes
+874,55,Male,110.0,158.0,,Yes,Flag: <=120,No,217.0,Normal,Asymptomatic,Yes
+875,56,Male,119.0,128.0,,No,Flag: <=120,No,223.0,ST-T Wave Abnormality,Asymptomatic,Yes
+876,69,Male,,,,,Flag: >120,Yes,,Normal,Asymptomatic,Yes
+877,64,Male,135.0,150.0,,Yes,Flag: <=120,No,193.0,ST-T Wave Abnormality,Asymptomatic,Yes
+878,72,Male,130.0,160.0,,Yes,Flag: >120,Yes,,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+879,69,Male,,,,,Flag: >120,Yes,210.0,ST-T Wave Abnormality,Asymptomatic,Yes
+880,56,Male,,,,,Flag: >120,Yes,282.0,Normal,Asymptomatic,Yes
+881,62,Male,120.0,,,,Flag: <=120,No,170.0,ST-T Wave Abnormality,Asymptomatic,Yes
+882,67,Male,,,,,Flag: <=120,No,369.0,Normal,Asymptomatic,Yes
+883,57,Male,119.0,156.0,,Yes,Flag: <=120,No,173.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+884,69,Male,,,,,Flag: >120,Yes,289.0,ST-T Wave Abnormality,Asymptomatic,Yes
+885,51,Male,,,,,Flag: >120,Yes,,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+886,48,Male,159.0,140.0,,Yes,Flag: <=120,No,,Normal,Asymptomatic,Yes
+887,69,Male,84.0,122.0,,No,Flag: >120,Yes,216.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+888,69,Male,,,,,Flag: <=120,No,271.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+889,64,Male,,,,,Flag: >120,Yes,244.0,ST-T Wave Abnormality,Asymptomatic,Yes
+890,57,Male,120.0,180.0,,Yes,Flag: >120,Yes,285.0,ST-T Wave Abnormality,Atypical Angina,Yes
+891,53,Male,122.0,124.0,,No,Flag: <=120,No,243.0,Normal,Asymptomatic,Yes
+892,37,Male,165.0,118.0,,No,Flag: <=120,No,240.0,Left Ventricular Hypertrophy (LVH),Non-Anginal Chest Pain,No
+893,67,Male,122.0,140.0,,Yes,Flag: <=120,No,219.0,ST-T Wave Abnormality,Asymptomatic,Yes
+894,74,Male,94.0,140.0,,Yes,Flag: >120,Yes,237.0,Normal,Non-Anginal Chest Pain,Yes
+895,63,Male,,,,,Flag: <=120,No,165.0,ST-T Wave Abnormality,Atypical Angina,No
+896,58,Male,110.0,100.0,,No,Flag: <=120,No,213.0,ST-T Wave Abnormality,Asymptomatic,No
+897,61,Male,150.0,190.0,,Yes,Flag: >120,Yes,287.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+898,64,Male,130.0,130.0,,No,Flag: >120,Yes,258.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+899,58,Male,113.0,160.0,,Yes,Flag: >120,Yes,256.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+900,60,Male,140.0,130.0,,No,Flag: >120,Yes,186.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+901,57,Male,100.0,122.0,,No,Flag: <=120,No,264.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+902,55,Male,,,,,Flag: <=120,No,,ST-T Wave Abnormality,Non-Anginal Chest Pain,No
+903,55,Male,127.0,120.0,,No,Flag: <=120,No,226.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,Yes
+904,56,Male,98.0,130.0,,No,Flag: >120,Yes,203.0,Normal,Asymptomatic,Yes
+905,57,Male,96.0,130.0,,No,Flag: <=120,No,207.0,ST-T Wave Abnormality,Asymptomatic,No
+906,61,Male,,,,,Flag: <=120,No,284.0,Normal,Non-Anginal Chest Pain,Yes
+907,61,Male,98.0,120.0,,No,Flag: <=120,No,337.0,Normal,Non-Anginal Chest Pain,Yes
+908,58,Male,118.0,150.0,,Yes,Flag: <=120,No,219.0,ST-T Wave Abnormality,Non-Anginal Chest Pain,Yes
+909,74,Male,112.0,155.0,,Yes,Flag: <=120,No,310.0,Normal,Asymptomatic,Yes
+910,68,Male,151.0,134.0,,No,Flag: >120,Yes,254.0,Normal,Non-Anginal Chest Pain,No
+911,51,Female,96.0,114.0,,No,Flag: >120,Yes,258.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+912,62,Male,108.0,160.0,,Yes,Flag: >120,Yes,254.0,ST-T Wave Abnormality,Asymptomatic,Yes
+913,53,Male,128.0,144.0,,Yes,Flag: >120,Yes,300.0,ST-T Wave Abnormality,Asymptomatic,Yes
+914,62,Male,138.0,158.0,,Yes,Flag: <=120,No,170.0,ST-T Wave Abnormality,Asymptomatic,Yes
+915,46,Male,126.0,134.0,,No,Flag: <=120,No,310.0,Normal,Asymptomatic,Yes
+916,54,Female,154.0,127.0,,No,Flag: >120,Yes,333.0,ST-T Wave Abnormality,Asymptomatic,Yes
+917,62,Male,,,,,Flag: <=120,No,139.0,ST-T Wave Abnormality,Typical Angina,No
+918,55,Male,100.0,122.0,,No,Flag: >120,Yes,223.0,ST-T Wave Abnormality,Asymptomatic,Yes
+919,58,Male,,,,,Flag: >120,Yes,385.0,Left Ventricular Hypertrophy (LVH),Asymptomatic,No
+920,62,Male,93.0,120.0,,No,Flag: <=120,No,254.0,Left Ventricular Hypertrophy (LVH),Atypical Angina,Yes
